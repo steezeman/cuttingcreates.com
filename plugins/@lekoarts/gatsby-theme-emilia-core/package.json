@@ -1,0 +1,78 @@
+{
+  "_from": "@lekoarts/gatsby-theme-emilia-core@^3.0.2",
+  "_id": "@lekoarts/gatsby-theme-emilia-core@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-j1OZxecegP6vI0pe++qD32dUbp6oi6pppfKbtTyi+Isi+jldqnlS4pELubflMP8Moq12/Cz/l/KiiK+n0jveWg==",
+  "_location": "/@lekoarts/gatsby-theme-emilia-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@lekoarts/gatsby-theme-emilia-core@^3.0.2",
+    "name": "@lekoarts/gatsby-theme-emilia-core",
+    "escapedName": "@lekoarts%2fgatsby-theme-emilia-core",
+    "scope": "@lekoarts",
+    "rawSpec": "^3.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.2"
+  },
+  "_requiredBy": [
+    "/@lekoarts/gatsby-theme-emilia"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-emilia-core/-/gatsby-theme-emilia-core-3.0.2.tgz",
+  "_shasum": "226daea1c2d4b36d5e14244fe5f13c735da14f22",
+  "_spec": "@lekoarts/gatsby-theme-emilia-core@^3.0.2",
+  "_where": "/home/dave/cuttingcreates/node_modules/@lekoarts/gatsby-theme-emilia",
+  "author": {
+    "name": "LekoArts",
+    "email": "hello@lekoarts.de"
+  },
+  "bugs": {
+    "url": "https://github.com/LekoArts/gatsby-themes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby-plugin-mdx": "^3.4.0",
+    "gatsby-plugin-sharp": "^4.4.0",
+    "gatsby-source-filesystem": "^4.4.0",
+    "gatsby-transformer-sharp": "^4.4.0",
+    "lodash.kebabcase": "^4.1.1"
+  },
+  "deprecated": false,
+  "description": "Core Theme for @lekoarts/gatsby-theme-emilia. This theme implements the Project node interface and exports templates (+ queries) which you can shadow.",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "homepage": "https://themes.lekoarts.de",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "lekoarts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lekoarts/gatsby-theme-emilia-core",
+  "peerDependencies": {
+    "gatsby": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-emilia-core"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  },
+  "version": "3.0.2"
+}
