@@ -5,9 +5,9 @@ import { animated, useSpring, config } from "react-spring"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image"
-import HeaderBackground from "@lekoarts/gatsby-theme-emilia/src/components/header-background"
-import LeftArrow from "@lekoarts/gatsby-theme-emilia/src/assets/left-arrow"
-import useEmiliaConfig from "@lekoarts/gatsby-theme-emilia/src/hooks/use-emilia-config"
+import HeaderBackground from "./header-background"
+import LeftArrow from "../assets/left-arrow"
+import useEmiliaConfig from "../hooks/use-emilia-config"
 
 type HeaderProjectProps = {
   title: string

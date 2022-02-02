@@ -1,7 +1,7 @@
 module.exports = (options) => ({
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-emilia-core`,
+      resolve: require.resolve(`../../@lekoarts/gatsby-theme-emilia-core`),
       options,
     },
     `gatsby-plugin-react-helmet`,

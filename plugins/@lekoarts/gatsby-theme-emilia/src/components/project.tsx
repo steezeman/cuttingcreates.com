@@ -2,10 +2,10 @@
 import { jsx, Container } from "theme-ui"
 import { animated, useSpring, config } from "react-spring"
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image"
-import Layout from "@lekoarts/gatsby-theme-emilia/src/components/layout"
+import Layout from "./layout"
 import HeaderProject from "./header-project"
-import ProjectPagination from "@lekoarts/gatsby-theme-emilia/src/components/project-pagination"
-import SEO from "@lekoarts/gatsby-theme-emilia/src/components/seo"
+import ProjectPagination from "./project-pagination"
+import SEO from "./seo"
 
 type ProjectProps = {
   data: {
